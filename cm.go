@@ -176,7 +176,7 @@ func (cm *Cm) String() string {
 		s += fmt.Sprintf("  Serial No     : %s\n", cm.SerialNo.DataStr)
 	}
 	if cm.Barcode.IsValid {
-		s += fmt.Sprintf("  Serial No     : %s\n", cm.Barcode.DataStr)
+		s += fmt.Sprintf("  Barcode No    : %s\n", cm.Barcode.DataStr)
 	}
 	if cm.ManufactureDate.IsValid {
 		if len(cm.ManufactureDate.DataStr) == 8 {
